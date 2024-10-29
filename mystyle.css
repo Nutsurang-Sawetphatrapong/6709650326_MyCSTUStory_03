@@ -216,3 +216,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #e06987; 
 }
+@media screen and (max-width: 480px) {
+    nav ul li a {
+        font-size: 14px; 
+        padding: 6px 10px;
+    }
+}
