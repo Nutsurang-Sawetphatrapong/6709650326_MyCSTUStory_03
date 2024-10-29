@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
+.Homepage {
+    background-color: rgba(2, 2, 9, 0.846);
+}
+
+.header1 {
+    background: url(./resources/mypic1.jpeg) no-repeat center/cover;
+    height: 600px;
+    position: relative;
+}
+
+nav {
+    background-color: rgba(2, 2, 8, 0.846);
+    opacity: 50%;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    font-family: Athiti;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(248, 242, 242);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Athiti;
+    color: rgb(234, 59, 59);
+}
+
+.content p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.photos-display {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    width: 100%;
+    height: auto;
+}
+
+.photo-display {
+    display: flex;
+    flex: 1;
+}
+
+.photo-display img {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.content video {
+    max-width: 50vw;
+    height: auto;
+    width: auto;
+}
+
+.header2 {
+    background-color: rgba(2, 2, 6, 0.905);
+    padding: 20px;
+    text-align: center;
+}
+#jy {
+    color: rgb(234, 59, 59);
+    font-family: Anton;
+    text-align: center;
+}
+#navjy {
+    background-color: #f1281edf;
+    opacity: 50%;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    font-family: Anton;
+}
+
+.journey1-2 {
+    background: linear-gradient(to right, #da3a14, #e6ccce);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Barlow Condensed;
+}
+.journey3 {
+    background: linear-gradient(to right, #da3a14, #e6ccce);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Barlow Condensed;
+}
+.journey4 {
+    background: linear-gradient(to right, #da3a14, #e6ccce);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Barlow Condensed;
+}
+.header3 {
+    background-color: rgba(2, 2, 8, 0.846);
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    font-family: Anton;
+}
+.background-container {
+    background-image: url('resources/mypic6.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-center h1 {
+    position: static;
+    font-family: Barlow Condensed;
+    font-size: 5em;
+    color: #f1281edf;
+    text-shadow: 2px 2px 05px rgba(0, 0, 0, 0.7);
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f0f2f7;
+}
+
+tr:nth-child(even) td {
+    background-color: #e3c1c2;
+}
+
+tr:nth-child(odd) td {
+    background-color: #ead8dd;
+}
+.img-future {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 100vw;
+}
+.img-future img {
+    width: 32%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    nav ul li {
+        margin: 10px 0; 
+    }
+    nav ul li a {
+        font-size: 16px; 
+        padding: 8px 12px;
+    }
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0; 
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #ea406a; 
+}
+
