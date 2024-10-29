@@ -214,11 +214,5 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 nav ul li a:hover {
-    color: #ea406a; 
-}
-@media screen and (max-width: 480px) {
-    nav ul li a {
-        font-size: 14px; 
-        padding: 6px 10px;
-    }
+    color: #e06987; 
 }
